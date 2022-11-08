@@ -1,19 +1,25 @@
+/* https://www.color-hex.com/color-palette/8023 */
+
 .Body {
     text-align: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 #Body1 {
     background-image: url("../images/prompt1_images/1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #Body1a {
     background-image: url("../images/prompt1_images/1a.png");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #Body1b {
     background-image: url("../images/prompt1_images/1b.png");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #Body1c {
@@ -21,22 +27,48 @@
 }
 
 #Body2{
-    background-image: url("../images/prompt2_images/896008966_apocalyptic_landscape.png");
+    background-image: url("../images/prompt2_images/2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#Body2a{
+    background-image: url("../images/prompt2_images/2a.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#Body2b{
+    background-image: url("../images/prompt2_images/2b.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#Body2c{
+    background-image: url("../images/prompt2_images/2c.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#Body2d{
+    background-image: url("../images/prompt2_images/2d.png");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .Heading {
-    background-color: bisque;
+    background-color: #ffd9a4;
     border-radius: 14px;
     margin: auto;
     padding: 10px;
     width: 445px;
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Alegreya Sans SC', sans-serif;
     margin-top: 75px;
-    border: 3px #403333 solid;
+    border: 3px #ce7700 solid;
 }
 
 .Question {
-    background-color: bisque;
+    background-color: #ffd9a4;
     border-radius: 14px;
     padding-left: 10%;
     padding-right: 10%;
@@ -44,7 +76,7 @@
     padding-bottom: 10px;
     margin: 10px;
     font-family: 'Ubuntu', sans-serif;
-    border: 3px #403333 solid;
+    border: 3px #ce7700 solid;
 }
 
 .AnswerChoices {
@@ -57,16 +89,15 @@
     font-size: 22px;
     font-weight: 700;
     font-family: 'Ubuntu', sans-serif;
-    border: 3px #403333 solid;
-    background-color: #695454;
+    border: 3px black solid;
+    background-color: #ffd9a4;
     text-align: left;
-    border-image: url(../images/prompt1_images/border_image.png);
-    border-image-slice: 210;
-    border-image-width: 4;
+    border: 4px solid;
+    background-image: url(../images/prompt1_images/border_image.png);
 }
 
 .outcomeText {
-    background-color: bisque;
+    background-color: #ffd9a4;
     border-radius: 14px;
     padding-left: 10%;
     padding-right: 10%;
@@ -75,10 +106,17 @@
     margin: 10%;
     top: 30%;
     font-family: 'Ubuntu', sans-serif;
-    border: 3px #403333 solid;
+    border: 4px solid;
     border-image: url(../images/prompt1_images/border_image.png);
-    border-image-slice: 210;
-    border-image-width: 4;
+    border-image-width: 55;
+}
+
+#Answer {
+    background-color: #ce7700;
+    border-radius: 14px;
+    padding: 10px;
+    margin: 10px;
+    border: 3px black solid;
 }
 
 button {
@@ -86,16 +124,9 @@ button {
     top: 60%;
     font-size: 22px;
     font-weight: bolder;
-    font-family: 'Dancing Script', cursive;
-    border: 3px #403333 solid;
-    background-color: bisque;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    border: 3px #39b359 solid;
+    background-color: #ce7700;
     border-radius: 14px;
-}
-
-#Answer {
-    background-color: bisque;
-    border-radius: 14px;
-    padding: 10px;
-    margin: 10px;
-    border: 3px #403333 solid;
+    border: 3px black solid;
 }
