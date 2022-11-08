@@ -1,0 +1,3 @@
+DROP DATABASE IF EXISTS survival_db;
+
+CREATE DATABASE survival_db;
