@@ -1,0 +1,91 @@
+[
+    {
+        "prompttext": "To begin your journey, you must pick a route. The North-West route meanders through the high ground in the mountains. It will be freezing and a long journey, but potentially safer. The quickest route would be due West, directly through the city remains. It will be treacherous, but give you the opportunity to forage for supplies. Finally, you can go South-West, and wade through the swamps of Myra, risking disease and toxic muck.",
+        "image": "",
+        "choice1": " As you head towards the mountains, temperatures start to rapidly drop. With no climbing equipment, you have trouble making much progress during the day, leaving you stranded near a wind tunnel at night. You freeze to death in your tent three hours after nightfall.",
+        "choice2": "Good choice. Although the city itself is dangerous, you need supplies in order to continue your journey. Unfortunately, in this world, supplies are not easy to come by. As you walk towards the city, you can hear a faint howling…",
+        "choice3": "As you approach the Southern swampland, you hear a rattling. The insects are signaling that danger is coming. You pause to ponder, are you the danger? Or is it something much more vicious? You step further into the swamp, only to find a no-faced alligator emerge from the surrounding trees. He knocks you down with his tail and makes you his nightly snack.",
+        "winningchoice": 2
+    },
+    {
+        "prompttext": "",
+        "image": "",
+        "choice1": "",
+        "choice2": "",
+        "choice3": "",
+        "choice4": "",
+        "winningchoice": ""
+    },
+    {
+        "prompttext": "",
+        "image": "",
+        "choice1": "",
+        "choice2": "",
+        "choice3": "",
+        "choice4": "",
+        "winningchoice": ""
+    },
+    {
+        "prompttext": "",
+        "image": "",
+        "choice1": "",
+        "choice2": "",
+        "choice3": "",
+        "choice4": "",
+        "winningchoice": ""
+    },
+    {
+        "prompttext": "",
+        "image": "",
+        "choice1": "",
+        "choice2": "",
+        "choice3": "",
+        "choice4": "",
+        "winningchoice": ""
+    },
+    {
+        "prompttext": "",
+        "image": "",
+        "choice1": "",
+        "choice2": "",
+        "choice3": "",
+        "choice4": "",
+        "winningchoice": ""
+    },
+    {
+        "prompttext": "",
+        "image": "",
+        "choice1": "",
+        "choice2": "",
+        "choice3": "",
+        "choice4": "",
+        "winningchoice": ""
+    },
+    {
+        "prompttext": "",
+        "image": "",
+        "choice1": "",
+        "choice2": "",
+        "choice3": "",
+        "choice4": "",
+        "winningchoice": ""
+    },
+    {
+        "prompttext": "",
+        "image": "",
+        "choice1": "",
+        "choice2": "",
+        "choice3": "",
+        "choice4": "",
+        "winningchoice": ""
+    },
+    {
+        "prompttext": "",
+        "image": "",
+        "choice1": "",
+        "choice2": "",
+        "choice3": "",
+        "choice4": "",
+        "winningchoice": ""
+    }
+]
