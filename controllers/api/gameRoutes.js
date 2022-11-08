@@ -1,6 +1,7 @@
 const router = require('express').Router();
 const { Prompt } = require('../../models');
 
+// GET route for getting a game prompt
 router.get('/:id', async (req, res) => {
     try {
         const promptData = await Prompt.findByPk(req.params.id);

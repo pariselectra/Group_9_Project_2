@@ -11,26 +11,26 @@ Prompt.init (
             autoIncrement: true,
         },
         prompttext: {
-            type: DataType.STRING,
+            type: DataTypes.STRING,
             allowNull: false,
         },
         image: {
-            type: DataType.COMPOSITE,
+            type: DataTypes.STRING,
         },
         choice1: {
-            type: DataType.STRING,
+            type: DataTypes.STRING,
         },
         choice2: {
-            type:DataType.STRING,
+            type:DataTypes.STRING,
         },
         choice3: {
-            type: DataType.STRING,
+            type: DataTypes.STRING,
         },
         choice4: {
-            type: DataType.STRING,
+            type: DataTypes.STRING,
         },
         winningchoice: {
-            type:DataType.INTEGER
+            type: DataTypes.INTEGER
         }  
     },
     {
