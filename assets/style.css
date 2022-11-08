@@ -1,0 +1,101 @@
+.Body {
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#Body1 {
+    background-image: url("../images/prompt1_images/1.png");
+}
+
+#Body1a {
+    background-image: url("../images/prompt1_images/1a.png");
+}
+
+#Body1b {
+    background-image: url("../images/prompt1_images/1b.png");
+}
+
+#Body1c {
+    background-image: url("../images/prompt1_images/1c.png");
+}
+
+#Body2{
+    background-image: url("../images/prompt2_images/896008966_apocalyptic_landscape.png");
+}
+
+.Heading {
+    background-color: bisque;
+    border-radius: 14px;
+    margin: auto;
+    padding: 10px;
+    width: 445px;
+    font-family: 'Dancing Script', cursive;
+    margin-top: 75px;
+    border: 3px #403333 solid;
+}
+
+.Question {
+    background-color: bisque;
+    border-radius: 14px;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 10px;
+    font-family: 'Ubuntu', sans-serif;
+    border: 3px #403333 solid;
+}
+
+.AnswerChoices {
+    list-style: none;
+    padding: 10px;
+    padding-left: 20%;
+    padding-right: 20%;
+    margin: auto;
+    width: 40%;
+    font-size: 22px;
+    font-weight: 700;
+    font-family: 'Ubuntu', sans-serif;
+    border: 3px #403333 solid;
+    background-color: #695454;
+    text-align: left;
+    border-image: url(../images/prompt1_images/border_image.png);
+    border-image-slice: 210;
+    border-image-width: 4;
+}
+
+.outcomeText {
+    background-color: bisque;
+    border-radius: 14px;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 10%;
+    top: 30%;
+    font-family: 'Ubuntu', sans-serif;
+    border: 3px #403333 solid;
+    border-image: url(../images/prompt1_images/border_image.png);
+    border-image-slice: 210;
+    border-image-width: 4;
+}
+
+button {
+    margin: 5%;
+    top: 60%;
+    font-size: 22px;
+    font-weight: bolder;
+    font-family: 'Dancing Script', cursive;
+    border: 3px #403333 solid;
+    background-color: bisque;
+    border-radius: 14px;
+}
+
+#Answer {
+    background-color: bisque;
+    border-radius: 14px;
+    padding: 10px;
+    margin: 10px;
+    border: 3px #403333 solid;
+}
