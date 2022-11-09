@@ -1,3 +1,4 @@
+// user logout
 const logout = async () => {
     const response = await fetch('/api/users/logout', 
         {
@@ -14,6 +15,6 @@ const logout = async () => {
   };
   
   // depending on id name for logout button
-  document.querySelector('')
+  document.querySelector('#logout-btn')
     .addEventListener('click', logout);
   
