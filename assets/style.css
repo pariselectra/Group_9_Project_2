@@ -55,6 +55,21 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+#BodyStart{
+    background-image: url("../images/prompt1_images/START.png");
+    background-size: cover
+}
+#BodyGameOver{
+    background-image: url("../images/prompt1_images/GAME_OVER.png");
+    background-size: cover;
+    background-repeat: repeat-y;
+}
+
+#BodyVictory{
+    background-image: url("../images/prompt1_images/VICTORY.png");
+    background-size: cover;
+    background-repeat: repeat-y;
+}
 
 .Heading {
     background-color: #ffd9a4;
