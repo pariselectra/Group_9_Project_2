@@ -1,9 +1,9 @@
+// user login form
 const loginFormHandler = async (event) => {
     event.preventDefault();
   
-    // depending on what id names are for email entry and password entry divs
-    const email = document.querySelector('').value.trim();
-    const password = document.querySelector('').value.trim();
+    const email = document.querySelector('#email-login').value.trim();
+    const password = document.querySelector('#password-login').value.trim();
   
     if (email && password) {
       const response = await fetch('/api/users/login', 
@@ -21,14 +21,14 @@ const loginFormHandler = async (event) => {
       }
     }
 };
-  
+
+// user signup form
 const signupFormHandler = async (event) => {
     event.preventDefault();
   
-    // depending on what id names are for username, email, and password entry divs
-    const username = document.querySelector('').value.trim();
-    const email = document.querySelector('').value.trim();
-    const password = document.querySelector('').value.trim();
+    const username = document.querySelector('#username-signup').value.trim();
+    const email = document.querySelector('#email-signup').value.trim();
+    const password = document.querySelector('#password-signup').value.trim();
   
     if (username && email && password) {
       const response = await fetch('/api/users', 
@@ -47,10 +47,10 @@ const signupFormHandler = async (event) => {
     }
 };
   
-// depending on id names for login form and signup form
-document.querySelector('')
+
+document.querySelector('.login-form')
     .addEventListener('submit', loginFormHandler);
   
-document.querySelector('')
+document.querySelector('.signup-form')
     .addEventListener('submit', signupFormHandler);
   
