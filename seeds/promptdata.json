@@ -2,76 +2,74 @@
     {
         "prompttext": "To begin your journey, you must pick a route. The North-West route meanders through the high ground in the mountains. It will be freezing and a long journey, but potentially safer. The quickest route would be due West, directly through the city remains. It will be treacherous, but give you the opportunity to forage for supplies. Finally, you can go South-West, and wade through the swamps of Myra, risking disease and toxic muck.",
         "image": "",
-        "choice1": " As you head towards the mountains, temperatures start to rapidly drop. With no climbing equipment, you have trouble making much progress during the day, leaving you stranded near a wind tunnel at night. You freeze to death in your tent three hours after nightfall.",
-        "choice2": "Good choice. Although the city itself is dangerous, you need supplies in order to continue your journey. Unfortunately, in this world, supplies are not easy to come by. As you walk towards the city, you can hear a faint howling…",
-        "choice3": "As you approach the Southern swampland, you hear a rattling. The insects are signaling that danger is coming. You pause to ponder, are you the danger? Or is it something much more vicious? You step further into the swamp, only to find a no-faced alligator emerge from the surrounding trees. He knocks you down with his tail and makes you his nightly snack.",
+        "choice1": "North-West: The mountain trail",
+        "choice2": "Due West: The urban trek",
+        "choice3": "South-West: The swamp march",
         "winningchoice": 2
     },
     {
-        "prompttext": "",
+        "prompttext": "The howling grows louder as you get closer to the city. That can only mean one thing…  Fleshrippers. Not everyone escaped the nuclear bombs. Most people died on impact, but those who did not, completely lost their minds. They wander the cities in search of whatever meat they can find… Even if it's still breathing. You're still about five miles from the city.",
         "image": "",
-        "choice1": "",
-        "choice2": "",
-        "choice3": "",
-        "choice4": "",
-        "winningchoice": ""
+        "choice1": "Forge on and arrive in the city by nightfall",
+        "choice2": "Take cover in an abandoned vehicle near the entrance of the city. Wait until morning to enter the confines of the city",
+        "choice3": "Instead of going directly through the city, try for the abandoned suburban edges",
+        "choice4": "Climb the tallest structure you can find, sleep about three miles outside of the city for safety. Attempt to enter in the morning",
+        "winningchoice": "3, 4"
     },
     {
-        "prompttext": "",
+        "prompttext": "It is about time to enter the city, you find an old speaker system. If you play it loud enough, it will distract the Fleshrippers and you can sneak past them unattended. Where will you forage for food first?",
         "image": "",
-        "choice1": "",
-        "choice2": "",
-        "choice3": "",
-        "choice4": "",
-        "winningchoice": ""
+        "choice1": "The hotel on the edge of the city",
+        "choice2": "An office building in the center of town",
+        "choice3": "The abandoned amusement park by the Northern half of the city",
+        "choice4": "College Campus in the Southern region of the city",
+        "winningchoice": "1, 2"
     },
     {
-        "prompttext": "",
+        "prompttext": "You leave the ruins of the past behind and begin your journey onward through the barren desert. After a few hours of walking, you reach an abandoned shack. An eerie chill washes over you…",
         "image": "",
-        "choice1": "",
-        "choice2": "",
-        "choice3": "",
-        "choice4": "",
-        "winningchoice": ""
+        "choice1": "Enter the home as a means to get supplies",
+        "choice2": "Keep walking",
+        "winningchoice": "1"
     },
     {
-        "prompttext": "",
+        "prompttext": "You keep walking along your same path. You know it is only a matter of time before you run into your hosts. Soon… your worst fears are realized. You make out some ghastly figures on the horizon. Cannibals. Unlike the Fleshrippers, cannibals are still human, they're smart and feed off members of the colonies who stray.",
         "image": "",
-        "choice1": "",
-        "choice2": "",
-        "choice3": "",
-        "choice4": "",
-        "winningchoice": ""
+        "choice1": "Fight - hand to hand combat",
+        "choice2": "Run",
+        "choice3": "Fight - firearm",
+        "choice4": "Hide",
+        "winningchoice": "1"
     },
     {
-        "prompttext": "",
+        "prompttext": "You've sustained some wounds and need to find some first aid supplies. You could patch yourself up, but maybe finding some medical equipment would be useful.",
         "image": "",
-        "choice1": "",
-        "choice2": "",
-        "choice3": "",
-        "choice4": "",
-        "winningchoice": ""
+        "choice1": "Find a hospital",
+        "choice2": "Find a clinic",
+        "choice3": "Fix your wounds yourself",
+        "winningchoice": "2"
     },
     {
-        "prompttext": "",
+        "prompttext": "Out from the old door frame steps an unassuming man in makeshift armor, and reflexively you draw your weapons. As you both face each other in a standoff, you observe his Background. He seems different from the cannibals you just faced, almost kind-hearted despite being battle-hardened. He might have supplies you need.",
         "image": "",
-        "choice1": "",
-        "choice2": "",
-        "choice3": "",
-        "choice4": "",
-        "winningchoice": ""
+        "choice1": "Leave",
+        "choice2": "Ask for safe passage",
+        "choice3": "Distract the host",
+        "choice4": "Fight the man",
+        "winningchoice": "2"
     },
     {
-        "prompttext": "",
+        "prompttext": "You follow the man inside the old clinic and he brings you some packaged, sterile bandages. You wash and bandage your wounds without issue and the host disappears around the corner to retrieve more supplies and you take a look around. Something's off… you inspect some nearby rags and discover patches of dried blood. As your eyes adjust, you peer into the open door of a nearby hallway and discover some skulls on gurneys. You smell smoke and realize this man was deceiving you all along- he's also a cannibal! You have to get out of here. You swing around, and suddenly the host blocks your path. In his hands he grips a bloodied, rusty cleaver pointed straight at you!",
         "image": "",
-        "choice1": "",
-        "choice2": "",
-        "choice3": "",
-        "choice4": "",
-        "winningchoice": ""
+        "choice1": "Fight the host",
+        "choice1text": "You are left with no choice but to fight for your life. You engage the man in combat and, after a grueling struggle and suffering some moderate flesh wounds, you come out victorious.",
+        "choice2": "Attempt to negotiate peacefully",
+        "choice3": "Run",
+        "choice4": "Scream",
+        "winningchoice": "1, 3"
     },
     {
-        "prompttext": "",
+        "prompttext": "According to your map, you should be approaching the entrance to the Eastern bunker. The landscape, however, looks the same as before- empty save for the broken remains of buildings. There is a cliff to one side, a hill with a hooded figure in the distance, and a raggedy suspension bridge on the other side, the other end of the bridge obscured. You also see the entrance to what looks like an old mine shaft nearby.",
         "image": "",
         "choice1": "",
         "choice2": "",
