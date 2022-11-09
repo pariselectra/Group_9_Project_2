@@ -1,0 +1,14 @@
+[
+    {
+        "message_type": "gameover",
+        "message_text": "Lost to the Wasteland..."
+    },
+    {
+        "message_type": "victory",
+        "message_text": "You have overcome the trials of the Wasteland and may now embark on a long, hard life filled with little comfort as you rebuild civilization."
+    },
+    {
+        "message_type": "continue",
+        "message_text": "Continue on your journery through the Wasteland."
+    }
+]
