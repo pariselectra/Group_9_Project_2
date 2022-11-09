@@ -36,8 +36,8 @@ Prompt.init (
             type: DataTypes.STRING,
         },
         winningchoice: {
-            type:DataTypes.INTEGER
-            type: DataTypes.INTEGER
+            type:DataTypes.INTEGER,
+            type: DataTypes.INTEGER,
         }  
     },
     {
