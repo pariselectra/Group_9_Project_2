@@ -11,7 +11,7 @@ router.get('/:id', async (req, res) => {
             res.status(404).json({ message: 'This path is not found in the story!' });
         }
         const prompts = promptData.get({ plain: true });
-        // console.log(prompts);
+         console.log(prompts);
         res.render('promptspage', prompts);
     } catch (err) {
         res.status(500).json(err);
@@ -19,22 +19,21 @@ router.get('/:id', async (req, res) => {
 });
 
 // GET route for continue game screen
-router.get('/continue', async (req, res) => {
+router.get('/continue/:id', async (req, res) => {
     try {
-        const gameData = await Message.findAll({
-            where: {
-                message_type: "continue"
-            },
-        });
-        const gameContinue = gameData.get({ plain: true });
-        res.render('continue page', gameContinue);
+        const promptData = await Prompt.findbyPk(req.params.id);
+        if (!promptData) {
+            res.status(404).json({ message: 'You might have wandered off the path' });
+        }
+        const prompts = promptData.get({ plain: true });
+        res.render('continue', gameContinue);
     } catch (err) {
         res.status(500).json(err);
     };
 });
 
-// GET route for game over screen
-router.get('/gameover', async (req, res) => {
+// GET route for startover screen
+router.get('/startover', async (req, res) => {
     try {
         const gameData = await Message.findAll({
             where: {
@@ -42,7 +41,7 @@ router.get('/gameover', async (req, res) => {
             },
         });
         const gameOver = gameData.get({ plain: true });
-        res.render('gameover page', gameOver);
+        res.render('startover', gameOver);
     } catch (err) {
         res.status(500).json(err);
     };
@@ -58,6 +57,21 @@ router.get('/victory', async (req, res) => {
         });
         const gameWin = gameData.get({ plain: true });
         res.render('win page', gameWin);
+    } catch (err) {
+        res.status(500).json(err);
+    };
+});
+
+// GET route for death screen
+router.get('/death', async (req, res) => {
+    try {
+        const gameData = await Message.findAll({
+            where: {
+                message_type: "gameover"
+            },
+        });
+        const gameWin = gameData.get({ plain: true });
+        res.render('deathpage', gameWin);
     } catch (err) {
         res.status(500).json(err);
     };

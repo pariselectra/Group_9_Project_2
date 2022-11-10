@@ -11,7 +11,9 @@
         "choice3": "South-West: The swamp march",
         "choice3image": "../public/images/prompt1_images/1c.png",
         "choice3text": "As you approach the Southern swampland, you hear a rattling. The insects are signaling that danger is coming. You pause to ponder, are you the danger? Or is it something much more vicious? You step further into the swamp, only to find a no-faced alligator emerge from the surrounding trees. He knocks you down with his tail and makes you his nightly snack.",
-        "winningchoice": 2
+        "winningchoice": "Due West: The urban trek",
+        "continuetext": "And so our journey continues...",
+        "deathtext": "And so our journey ends..."
     },
     {
         "prompttext": "The howling grows louder as you get closer to the city. That can only mean one thing…  Fleshrippers. Not everyone escaped the nuclear bombs. Most people died on impact, but those who did not, completely lost their minds. They wander the cities in search of whatever meat they can find… Even if it's still breathing. You're still about five miles from the city.",
@@ -28,7 +30,9 @@
         "choice4": "Climb the tallest structure you can find, sleep about three miles outside of the city for safety. Attempt to enter in the morning",
         "choice4image": "../public/images/prompt2_images/2d.png",
         "choice4text": "Congrats. Although you are a bit hungry, you survived the night unharmed.",
-        "winningchoice": 3 
+        "winningchoice": "Instead of going directly through the city, try for the abandoned suburban edges",
+        "continuetext": "And so our journey continues...",
+        "deathtext": "And so our journey ends..." 
     },
     {
         "prompttext": "It is about time to enter the city, you find an old speaker system. If you play it loud enough, it will distract the Fleshrippers and you can sneak past them unattended. Where will you forage for food first?",
@@ -45,7 +49,9 @@
         "choice4": "College Campus in the Southern region of the city",
         "choice4image": "../public/images/prompt3_images/3D.png",
         "choice4text": "Unfortunately, there was no food on the college campus. You wasted all of the time the Fleshrippers were distracted, meaning you were left with no supplies as they flooded back into the city. They quickly hunted you down and ate you.",
-        "winningchoice": 1
+        "winningchoice": "The hotel on the edge of the city",
+        "continuetext": "And so our journey continues...",
+        "deathtext": "And so our journey ends..."
     },
     {
         "prompttext": "You leave the ruins of the past behind and begin your journey onward through the barren desert. After a few hours of walking, you reach an abandoned shack. An eerie chill washes over you…",
@@ -56,7 +62,9 @@
         "choice2": "Keep walking",
         "choice2image": "../public/images/prompt4_images/4B.png",
         "choice2text": "About a mile past the house, some cannibals spot you. Unlike Fleshrippers, cannibals are still human, they've just lost any civility. They feast on what they can and live outside of the colonies. The cannibals ambush you. You are too weak to fight them off. They take you back to their camp, and make you into a nice soup.",
-        "winningchoice": 1
+        "winningchoice": "Enter the home as a means to get supplies",
+        "continuetext": "And so our journey continues...",
+        "deathtext": "And so our journey ends..."
     },
     {
         "prompttext": "You keep walking along your same path. You know it is only a matter of time before you run into your hosts. Soon… your worst fears are realized. You make out some ghastly figures on the horizon. Cannibals. Unlike the Fleshrippers, cannibals are still human, they're smart and feed off members of the colonies who stray.",
@@ -73,7 +81,9 @@
         "choice4": "Hide",
         "choice4image": "../public/images/prompt5_images/5D.png",
         "choice4text": "You're in the middle of nowhere. There is nowhere to hide. The cannibals catch you behind a shrub.",
-        "winningchoice": 1
+        "winningchoice": "Fight - hand to hand combat",
+        "continuetext": "And so our journey continues...",
+        "deathtext": "And so our journey ends..."
     },
     {
         "prompttext": "You've sustained some wounds and need to find some first aid supplies. You could patch yourself up, but maybe finding some medical equipment would be useful.",
@@ -87,7 +97,9 @@
         "choice3": "Fix your wounds yourself",
         "choice3image": "../public/images/prompt6_images/6c.png",
         "choice3text": "You rip up some cloth to tape up your wounds. Should be good enough. A few hours later, you break into a high fever and realize the wounds were infected and your clothes were dirty. Unfortunately, you're no doctor.",
-        "winningchoice": 2
+        "winningchoice": "Find a clinic",
+        "continuetext": "And so our journey continues...",
+        "deathtext": "And so our journey ends..."
     },
     {
         "prompttext": "Out from the old door frame steps an unassuming man in makeshift armor, and reflexively you draw your weapons. As you both face each other in a standoff, you observe his Background. He seems different from the cannibals you just faced, almost kind-hearted despite being battle-hardened. He might have supplies you need.",
@@ -104,7 +116,9 @@
         "choice4": "Fight the man",
         "choice4image": "../public/images/prompt7_images/7D.png",
         "choice4text": "Only the strong survive. You decide to fight your way to the building. As you lunge forward, your wounds tear open. You weren't in any condition to fight. The last thing you see is the clinic dweller trawling towards you, a bone saw in hand.",
-        "winningchoice": 2
+        "winningchoice": "Ask for safe passage",
+        "continuetext": "And so our journey continues...",
+        "deathtext": "And so our journey ends..."
     },
     {
         "prompttext": "You follow the man inside the old clinic and he brings you some packaged, sterile bandages. You wash and bandage your wounds without issue and the host disappears around the corner to retrieve more supplies and you take a look around. Something's off… you inspect some nearby rags and discover patches of dried blood. As your eyes adjust, you peer into the open door of a nearby hallway and discover some skulls on gurneys. You smell smoke and realize this man was deceiving you all along- he's also a cannibal! You have to get out of here. You swing around, and suddenly the host blocks your path. In his hands he grips a bloodied, rusty cleaver pointed straight at you!",
@@ -121,7 +135,9 @@
         "choice4": "Scream",
         "choice4image": "../public/images/prompt8_images/8d.png",
         "choice4text": "Instantly you decide that your only way out of this situation is to distract the host. You let loose a blood-curdling scream. The host, while startled, grins and kicks you in the stomach. As you crouch over in pain, he swings the cleaver down and you feel it connect with your skull. In flashes of pain, you feel him hack away at your body and all thoughts erode away as he tears you to pieces",
-        "winningchoice": 3
+        "winningchoice": "Run",
+        "continuetext": "And so our journey continues...",
+        "deathtext": "And so our journey ends..."
     },
     {
         "prompttext": "According to your map, you should be approaching the entrance to the Eastern bunker. The landscape, however, looks the same as before- empty save for the broken remains of buildings. There is a cliff to one side, a hill with a hooded figure in the distance, and a raggedy suspension bridge on the other side, the other end of the bridge obscured. You also see the entrance to what looks like an old mine shaft nearby.",
@@ -138,7 +154,9 @@
         "choice4": "Try the mine shaft entrance.",
         "choice4image": "../public/images/prompt9_images/9d.png",
         "choice4text": "You enter the mine shaft and find it's fairly warm and out of reach of dangerous creatures. As you turn back towards the entrance, you accidentally bump into a wooden post and with a rumble, the wooden structures collapse. You are buried alive with no way out.",
-        "winningchoice": 2
+        "winningchoice": "Move towards the hill",
+        "continuetext": "And so our journey continues...",
+        "deathtext": "And so our journey ends..."
     },
     {
         "prompttext": "You approach the bunker and are greeted by a large, disfigured, hooded figure who may or may not have once been a perfectly normal human being. It towers menacingly between you and the final gate to the most well-fortified bunker of the Eastern Quadrant.",
@@ -152,6 +170,8 @@
         "choice3": "Walk away",
         "choice3image": "../public/images/prompt10_images/10c.png",
         "choice3text": "ou decide that now is not the time to confront the creature. There is no way of telling how aggressive it is, and you are unwilling to start another fight without more resources. However, you scan the surrounding area and can find no other entrance into the bunker. As you back away, the monster, sensing retreat, lunges at you and pounds you to a pulp. It smelled your fear.",
-        "winningchoice": 2
+        "winningchoice": "Approach peacefully",
+        "continuetext": "And so our journey continues...",
+        "deathtext": "And so our journey ends..."
     }
 ]

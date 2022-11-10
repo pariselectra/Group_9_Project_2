@@ -5,23 +5,23 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Road to Utopia</title>
-        <link rel="stylesheet" href="/public/css/style.css">
+        <link rel="stylesheet" href="/css/style.css">
     </head>
 
-    <body class= "Body" id=`{{backgroundBody}}`>
+    <body class= "Body">
         <!--Conditionally render login/logout-->
         <nav>
             {{#if logged_in}}
             <h1>{{user.username}}</h1>
             <button>Logout</button>
             {{else}}
-            <a href="/views/login.handlebars"></a>
+            <a href="/api/users/login">Login</a>
             {{/if}}
         </nav>
         {{{body}}}
         <!-- Login/logout script -->
         {{#if logged_in}}
-        <script src="/public/js/logout.js"></script>
+        <script src="../../public/js/logout.js"></script>
         {{/if}}
     </body>
 

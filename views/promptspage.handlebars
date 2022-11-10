@@ -1,18 +1,22 @@
-<div>
-    {{#if prompts.length}}
-    <div class="Body" id="Body1">
-        {{#each prompts as |prompt|}}
+
+    <div class="Body" style="background-image: /images/prompt1_images('1.png')">
+        
         <h1 class="Heading">And so our journey begins...</h1>
-        <h3 class="Question"><a href="/seeds/promptdata.json"{{prompt.id}}>{{prompt.prompttext}}</a></h3>
+        <h3 class="Question">{{prompttext}}</h3>
         <ul class="AnswerChoices">
-            <li id="Answer">{{prompt.choice1}}</li>
-            <li id="Answer">{{prompt.choice2}}</li>
-            <li id="Answer">{{prompt.choice3}}</li>
-            <li id="Answer">{{prompt.choice4}}</li>
-        {{/each}}
+            {{#if choice1}}
+            <li id="choice-1-button">{{choice1}}</li>
+            {{/if}}
+            {{#if choice2}}
+            <li id="choice-2-button">{{choice2}}</li>
+            {{/if}}
+            {{#if choice3}}
+            <li id="choice-3-button">{{choice3}}</li>
+            {{/if}}
+            {{#if choice4}}
+            <li id="choice-4-button">{{choice4}}</li>
+            {{/if}}
+
+      
         </ul>
     </div>
-    {{/if}}
-</div>
-
-<script src="/models/Prompt.js"></script>
