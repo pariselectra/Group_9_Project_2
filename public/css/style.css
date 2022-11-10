@@ -126,7 +126,7 @@
     border-image-width: 55;
 }
 
-#Answer {
+li {
     background-color: #ce7700;
     border-radius: 14px;
     padding: 10px;

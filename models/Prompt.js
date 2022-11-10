@@ -54,8 +54,14 @@ Prompt.init (
             type: DataTypes.TEXT,
         },
         winningchoice: {
-            type:DataTypes.INTEGER,
-        }  
+            type:DataTypes.TEXT,
+        },
+        continuetext: {
+            type: DataTypes.STRING,
+        },
+        deathtext: {
+            type: DataTypes.STRING,
+        },  
     },
     {
         sequelize,
