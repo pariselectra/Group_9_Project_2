@@ -8,12 +8,20 @@
         <link rel="stylesheet" href="/public/css/style.css">
     </head>
 
-    <body class= "Body" id="BodyStart">
-        <h1 class="Heading">ROAD TO UTOPIA</h1>
-        <button>Start</button>
+    <body class= "Body" id=`{{backgroundBody}}`>
+        <!--Conditionally render login/logout-->
+        <nav>
+            {{#if logged_in}}
+            <h1>{{user.username}}</h1>
+            <button>Logout</button>
+            {{else}}
+            <a href="/views/login.handlebars"></a>
+            {{/if}}
+        </nav>
+        {{{body}}}
         <!-- Login/logout script -->
         {{#if logged_in}}
-        <script src="/public/js/login.js"></script>
+        <script src="/public/js/logout.js"></script>
         {{/if}}
     </body>
 
