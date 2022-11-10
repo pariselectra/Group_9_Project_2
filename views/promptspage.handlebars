@@ -3,7 +3,7 @@
     <div class="Body" id="Body1">
         {{#each prompts as |prompt|}}
         <h1 class="Heading">And so our journey begins...</h1>
-        <h3 class="Question"><a href="./"{{prompt.id}}>{{prompt.prompttext}}</a></h3>
+        <h3 class="Question"><a href="/seeds/promptdata.json"{{prompt.id}}>{{prompt.prompttext}}</a></h3>
         <ul class="AnswerChoices">
             <li id="Answer">{{prompt.choice1}}</li>
             <li id="Answer">{{prompt.choice2}}</li>
