@@ -11,33 +11,50 @@ Prompt.init (
             autoIncrement: true,
         },
         prompttext: {
-            type: DataTypes.STRING,
-            type: DataTypes.STRING,
+            type: DataTypes.TEXT,
             allowNull: false,
         },
-        image: {
-            type: DataTypes.STRING,
+        promptimage: {
             type: DataTypes.STRING,
         },
         choice1: {
+            type: DataTypes.TEXT,
+        },
+        choice1image: {
             type: DataTypes.STRING,
-            type: DataTypes.STRING,
+        },
+        choice1text: {
+            type: DataTypes.TEXT,
         },
         choice2: {
-            type:DataTypes.STRING,
-            type:DataTypes.STRING,
+            type:DataTypes.TEXT,
+        },
+        choice2image: {
+            type: DataTypes.STRING,
+        },
+        choice2text: {
+            type: DataTypes.TEXT,
         },
         choice3: {
-            type: DataTypes.STRING,
+            type: DataTypes.TEXT,
+        },
+        choice3image: {
             type: DataTypes.STRING,
         },
+        choice3text: {
+            type: DataTypes.TEXT,
+        },
         choice4: {
+            type: DataTypes.TEXT,
+        },
+        choice4image: {
             type: DataTypes.STRING,
-            type: DataTypes.STRING,
+        },
+        choice4text: {
+            type: DataTypes.TEXT,
         },
         winningchoice: {
             type:DataTypes.INTEGER,
-            type: DataTypes.INTEGER,
         }  
     },
     {

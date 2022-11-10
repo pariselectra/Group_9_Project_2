@@ -6,11 +6,13 @@ const { Message } = require('../../models');
 router.get('/:id', async (req, res) => {
     try {
         const promptData = await Prompt.findByPk(req.params.id);
+        // console.log(promptData);
         if (!promptData) {
             res.status(404).json({ message: 'This path is not found in the story!' });
         }
-        const stage = promptData.get({ plain: true });
-        res.render('gamePagePlaceholder', stage);
+        const prompts = promptData.get({ plain: true });
+        // console.log(prompts);
+        res.render('promptspage', prompts);
     } catch (err) {
         res.status(500).json(err);
     };
