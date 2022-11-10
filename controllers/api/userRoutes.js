@@ -29,7 +29,7 @@ router.post('/', async (req, res) => {
   }
 });
 
-// PUT route to update users death count
+// PUT route to update users death count --- ICEBOXED
 // router.put('/:id', async (req, res) => {
 //   try {
 //     const currentDeathCount = await User.get(deaths);
