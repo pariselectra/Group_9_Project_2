@@ -1,5 +1,8 @@
-
-    <div class="Body" style="background-image: /images/prompt1_images('1.png')">
+<style>
+body {background-image: url("{{promptimage}}") !important;}
+</style>
+<div>
+    <div class="Body">
         
         <h1 class="Heading">And so our journey begins...</h1>
         <h3 class="Question">{{prompttext}}</h3>
@@ -16,7 +19,6 @@
             {{#if choice4}}
             <li id="choice-4-button">{{choice4}}</li>
             {{/if}}
-
-      
         </ul>
     </div>
+</div>
