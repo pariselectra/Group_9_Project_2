@@ -26,8 +26,9 @@ router.get('/continue/:id', async (req, res) => {
             res.status(404).json({ message: 'You might have wandered off the path' });
         }
         const prompts = promptData.get({ plain: true });
-        res.render('continue', gameContinue);
+        res.render('continue', prompts);
     } catch (err) {
+        console.log(err);
         res.status(500).json(err);
     };
 });
