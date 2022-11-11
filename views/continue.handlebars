@@ -7,15 +7,20 @@ body {background-image: powderblue;}
     <button>Continue</button>
 </div> --}}
 
-<div class="Body" id="${backgroundBody}">
-    {{#if }}
+<div class="Body"> 
+    {{#if success}}
     <h1 class="Heading">And so our journey continues...</h1>
     <h3 class="outcomeText">{{prompt.choice}}</h3>
-    <button>Continue</button>
-    {{else}}
+    <button><a href='/api/game/${newId}'>Continue</button>
+    {{else}} {{#if death}}
     <h1 class="Heading">And so our journey ends...</h1>
     <h3 class="outcomeText">{{prompt.choice}}</h3>
     <h1 class="Heading">GAME OVER</h1>
+    <button><a href="/">Play Again</a></button>
+    <button><a href="https://www.google.com">Exit</a></button>
+    {{else}} {{#if victory}}
+    <h1 class="Heading">CONGRATS!</h1>
+    <h3 class="Heading">You have reached the bunker. The members of the Eastern Quadarant will surely face prospertiy in the Southern lands. Your mission is complete.</h3>
     <button><a href="/">Play Again</a></button>
     <button><a href="https://www.google.com">Exit</a></button>
     {{/if}}
