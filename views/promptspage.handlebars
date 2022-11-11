@@ -8,10 +8,10 @@ body {background-image: url("{{promptimage}}") !important;}
         <h3 class="Question">{{prompttext}}</h3>
         <ul class="AnswerChoices">
             {{#if choice1}}
-            <li id="choice-1-button">{{choice1}}</li>
+            <li id="choice-1-button"><a href="/api/game/death/1">{{choice1}}</a></li>
             {{/if}}
             {{#if choice2}}
-            <li id="choice-2-button">{{choice2}}</li>
+            <li id="choice-2-button"><a href="/api/game/cont/1">{{choice2}}</a></li>
             {{/if}}
             {{#if choice3}}
             <li id="choice-3-button">{{choice3}}</li>
