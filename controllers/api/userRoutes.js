@@ -15,7 +15,7 @@ router.get('/:id', async (req, res) => {
 
 // POST route for creating a new user
 router.post('/', async (req, res) => {
-    console.log(req.body);
+    // console.log(req.body);
   try {
     const userData = await User.create(req.body);
     req.session.save(() => {
