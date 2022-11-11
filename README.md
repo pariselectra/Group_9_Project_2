@@ -18,7 +18,7 @@ Additionally, the project utilizes environment variables with a .env file (ignor
 ## Installation
 Click the link below to access the text-based game. The app is deployed on Heroku.
 
-(Game link)
+https://road-to-utopia.herokuapp.com/
 
 To access the repo, clone the repo using the command git clone with the http address.
 
@@ -37,7 +37,22 @@ The following dependencies will need to be installed:
 A .env file with hidden environment variables will be needed to use MySQL. Use survival_db as the database name and root for the database user, with the local machine password added in for local machines.
 
 ## Usage
-Users must create an account to access the game. Upon account creation and login, users can click the button to start the game. Each prompt will offer players 3-4 answer choices. In this version of the game, there is only one correct answer that will lead the player down the path to the next question. Incorrect choices will lead to player death. On the death screen, players will be able to view how many deaths they have suffered and be given an option to start over. Once the player has chosen the correct paths to the victory screen, users will have the option to either start over or logout.
+Click the link below to access the game.
+
+https://road-to-utopia.herokuapp.com/
+
+Users must create an account to access the game. Upon account creation and login, users can click the button to start the game. 
+
+![homepage](https://user-images.githubusercontent.com/113392613/201420156-6931e1e2-80dc-4630-9f01-d9fd370fe900.png)
+
+Each prompt will offer players 3-4 answer choices. In this version of the game, there is only one correct answer that will lead the player down the path to the next question. Incorrect choices will lead to player death. 
+
+![path1](https://user-images.githubusercontent.com/113392613/201421228-103fe837-ddd9-4ff0-93f5-6de683c010ce.png)
+
+On the death screen, players will be able to view how many deaths they have suffered and be given an option to start over. Once the player has chosen the correct paths to the victory screen, users will have the option to either start over or logout.
+
+![death1](https://user-images.githubusercontent.com/113392613/201421354-f3988f75-9bbe-488f-954f-f9537b2ac8b6.png)
+
 
 ## License
 Refer to license in repo or as below:
