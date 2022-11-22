@@ -1,8 +1,9 @@
 const path = require('path');
 const express = require('express');
 const session = require('express-session');
-const exphbs = require('express-handlebars');
-const hbs = exphbs.create({});
+const exhbs = require('express-handlebars');
+//const hbs = exphbs.create({});
+const helpers = require('./utils/helpers');
 
 const routes = require('./controllers');
 
@@ -29,7 +30,7 @@ const sess = {
 
 app.use(session(sess));
 
-// const hbs = exhbs.create({ helpers });
+const hbs = exhbs.create({ helpers });
 
 app.engine('handlebars', hbs.engine);
 app.set('view engine', 'handlebars');
